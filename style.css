@@ -1,0 +1,147 @@
+body {
+    background: var(--very-dark-blue-main-bg, #0D192C);
+    display: flex;
+    padding: 152px 0px;
+    justify-content: center;
+    align-items: center;
+    cursor: url(/nft-preview-card-component-main/images/Pointer\ Copy\ 2.png);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background: var(--very-dark-blue-card-bg, #15263F);
+    box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 0.10);
+    width: 350px;
+    height: 596px;
+}
+p   {
+    color: var(--Soft-Blue, #8BACD9);
+}
+h1 {
+    color: var(--Cyan, #00FFF8);
+    font-feature-settings: 'clig' off, 'liga' off;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    padding-left: 24px;
+    /* Heading */
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+}
+.tarif {
+    display: flex; 
+    padding-left: 24px;  
+}
+.tarif1 {
+    display: flex;
+    padding-right: 110.82px;
+}
+.tarif2 {
+    display: flex;
+}
+.createur {
+    display: flex;
+    padding-left: 24px;
+}
+
+.description {
+    width: 302px;
+    color: var(--Soft-Blue, #8BACD9);
+    font-feature-settings: 'clig' off, 'liga' off;
+    margin: 0%;
+    margin-bottom: 24px;
+    padding-left: 24px;
+    /* Body */
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px; /* 144.444% */
+}
+.bitcoin {
+    border-radius: 8px;
+    background-image: url(./images/image-equilibrium.jpg);
+    margin: 24px 24px 0px 24px;
+    width: 302px;
+    height: 302px;
+    background-size: cover;
+    
+}
+
+.ethereum {
+    width: 11px;
+    height: 18px;
+    padding-right: 8px;
+}
+.photo {
+    width: 33px;
+    height: 33px;
+}
+.valeurE {;
+    color: var(--Cyan, #00FFF8);
+    font-feature-settings: 'clig' off, 'liga' off;
+    margin: 0%;
+    
+    /* Caption (Bold) */
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.threedays {
+    color: var(--Soft-Blue, #8BACD9);
+    font-feature-settings: 'clig' off, 'liga' off;
+    margin: 0%;
+
+        /* Caption */
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.horloge {
+    width: 16px;
+    height: 16px;
+    padding-right: 8px;
+}
+hr  {
+    width: 302px;
+    height: 1px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    background: var(--very-dark-blue-line, #2E405A);   
+    border: 0px;
+}
+.signature {
+    margin: 8px;
+}
+.eye {
+    position: absolute;
+    left: center;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    margin-top: 24px;
+    margin-left: 24px;
+    border-radius: 8px;
+    opacity: 0.503;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 302px;
+    width: 302px;
+    background-color:hsla(178, 100%, 50%, 0.61) ;
+    opacity: 0%;
+    cursor: pointer;
+    
+}
+.eye:hover {
+    opacity: 100%;
+}
+
+
